@@ -11,7 +11,6 @@ LOCAL_SRC_FILES    := fstab_AB.qcom
 else
 LOCAL_SRC_FILES    := fstab.qcom
 endif
-LOCAL_MODULE_PATH  := $(TARGET_OUT_VENDOR_ETC)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
